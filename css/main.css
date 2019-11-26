@@ -113,6 +113,38 @@ body {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'lora', serif;
+  font-size: 3em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align items: center;
+}
+
+main h2 {
+  color: #fff;
+  font-weight: lighter;
+}
+
+main span {
+  font-family: 'lora', sefif;
+}
+
+hr {
+  flex: 0 0 100%;
 }
 
 .div-1, .div-2, .div-3 {
